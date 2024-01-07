@@ -159,7 +159,7 @@ hr {
 
 #testimonial {
     position: relative;
-    background: url('../images/testimonial.jpg') no-repeat center center;
+    background: url('../images/poster_1.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     overflow: hidden;
@@ -261,7 +261,7 @@ video {
 }
 
 .form-image {
-    background: url('../images/form.jpg') no-repeat center center;
+    background: url('../images/poster_2.jpg') no-repeat center center;
     background-size: cover;
 
     width: 60%;
