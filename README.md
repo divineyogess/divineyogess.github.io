@@ -53,7 +53,7 @@ These features are on every page of the website for a consistent design
 -__Main Image__
 - The main image stays the same on every page however the size and aspect ratio changes depending on the screen size. It contains a text box which changes text for each page and displays a message on what the page is about.
 
-![Main image](documents/images/main-image.png)
+![Main image](assets/images/poster_2.jpg)
 
 -__Footer__
 - The footer stays the same on every page however it does change shape and size for a responsive design for different devices. It has social media icons which open in a new tab.
