@@ -1,113 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Yoga workout page for everyone">
-    <meta name="keywords" content="Yoga, yoga classes, poses, beginner">
-
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <link rel="shortcut icon" href="assets/images/poster.jpg" type="image/x-icon">
-    <title>Divine Yogess</title>
+    <title>Schedule with Divine Yogess</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background-color: #fff;
+        }
+    </style>
 </head>
-
 <body>
-
-    <!-- header and navigation -->
-    <header>
-        <a href="index.html">
-            <h1 id="logo"><i class="fa-sharp fa-solid fa-spa"></i> Divine Yogess</h1>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="joinus.html" class="active"
-                        aria-label="Sign up page for events, classes and newsletter">Join Us</a>
-                </li>
-                <li>
-                    <a href="yogaposes.html" aria-label="Yoga poses example page">Yoga Poses</a>
-                </li>
-                <li>
-                    <a href="index.html" aria-label="Go to the home page">Home</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- main image and cover text -->
-    <!-- image taken from pexels -->
-    <section id="image-section">
-        <div id="main-image"></div>
-        <div id="cover-text">
-            <h3>Join us now to be a part of our daily yoga group!</h3>
-        </div>
-    </section>
-
-    <!-- form section-->
-    <section class="form-section">
-        <h2>Our Yoga Classes Start Soon!</h2>
-        <div class="form-image">
-            <form action="thankyou.html" class="form-style">
-                <h3>Join our newsletter to recieve yoga inspiration and class updates directly
-                    to
-                    your mailbox.</h3>
-                <label for="full-name" class="label-style">Name</label>
-                <br>
-                <input type="text" id="full-name" class="input-style" required>
-                <br>
-                <label for="email" class="label-style">Email</label>
-                <br>
-                <input type="email" id="email" class="input-style" required>
-                <br>
-                <span>
-                    <label for="private" class="label-style">One-to-One Session</label>
-                    <input type="radio" id="private" value="private" name="workout-type">
-                </span>
-                <span>
-                    <label for="group" class="label-style">Group Session</label>
-                    <input type="radio" id="group" value="group" name="workout-type">
-                </span>
-                <span>
-                    <label for="both" class="label-style">Both</label>
-                    <input type="radio" id="both" value="both" name="workout-type" required>
-                </span>
-                <br>
-                <input type="submit" value="Join Now!" class="join-button">
-            </form>
-        </div>
-    </section>
-
-    <!-- footer idea taken from Love Running -->
-    <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://en-gb.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="http://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i
-                        class="fa-brands fa-square-twitter"></i></a>
-            </li>
-            <li>
-                <a href="http://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Youtube page (opens in a new tab)"><i
-                        class="fa-brands fa-square-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
-        Developed by Fatima Qaiser 2022
-    </footer>
-
-    <!-- font awesome script -->
-    <script src="https://kit.fontawesome.com/a453e46d2a.js" crossorigin="anonymous"></script>"
+    <div class="container">
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/divineyogess" style="min-width:320px;height:700px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
+    </div>
 </body>
-
 </html>
